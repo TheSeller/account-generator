@@ -24,7 +24,7 @@ bot.on("ready", () => {
 });
 
 bot.on("message", message => {
-    if (message.channel.id === "Channel_ID") { //This will make the bot work only in that channel
+    if (message.channel.id === "749322082248294451") { //This will make the bot work only in that channel
         if (message.author.bot) return;
         var command = message.content
             .toLowerCase()
